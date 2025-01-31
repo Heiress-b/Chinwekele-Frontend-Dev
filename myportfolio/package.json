@@ -1,6 +1,5 @@
 {
   "name": "myportfolio",
-  "homepage": "https://github.com/Heiress-b/Chinwekele-Frontend-Dev.git",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "start": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
